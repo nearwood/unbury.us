@@ -1394,7 +1394,7 @@ QUnit.dump = (function() {
 		return join( "[", ret, "]" );
 	}
 
-	var reName = /^function (\w+)/,
+	var reName = /^function(\w+)/,
 		dump = {
 			// type is used mostly internally, you can fix a (custom)type in advance
 			parse: function( obj, type, stack ) {

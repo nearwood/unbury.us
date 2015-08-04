@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-
 	QUnit.test( "sort loan test 1", function( assert ) {
 		var id = '0';
 		var payment = 25;
@@ -13,9 +12,7 @@ $( document ).ready(function() {
 		var payment_type = "avalanche";
 		var sorted_keys = sort_loans(remaining_loans,current_principal,current_interest,payment_type);
 		assert.ok( arraysEqual(sorted_keys, ['0','1']), sorted_keys );
-
 	});
-
 
 	QUnit.test( "sort loan test 2", function( assert ) {
 		var id = '0';
@@ -32,7 +29,4 @@ $( document ).ready(function() {
 		assert.ok( arraysEqual(sorted_keys, ['1','0']), sorted_keys );
 
 	});
-
-
-
 });

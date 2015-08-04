@@ -10,4 +10,4 @@ The order of which loans are paid off first is either highest-to-lowest interest
 
 Put just an extra $100 a month towards your loans and see how much time and interest paid you save!
 
-*unbury.us* is a loan calculator forked by [Sean Freiburg](http://www.seanfreiburg.com) from unbury.me by Jordan Santell. Source code is licensed under the [MIT License](http://opensource.org/licenses/mit-license.php).
+*unbury.us* is a loan calculator forked by [Sean Freiburg](http://www.nearwood.net) from unbury.me by Jordan Santell. Source code is licensed under the [MIT License](http://opensource.org/licenses/mit-license.php).
